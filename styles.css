@@ -1,0 +1,123 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background: #1F2937;
+    margin: 0;
+    padding-right: 10vh;
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 10vh;
+    padding-right: 10vh;;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo{
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container.top{
+    padding-left: 10vh;
+    background: #1F2937;
+    display: flex;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 8vh;
+}
+
+.container.top .main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.header.links{
+    display: flex;
+    align-content: center;
+}
+
+
+.body .container.two{
+    background: #F9FAF8;
+    height: 250px;
+    width: 100%;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.hero .left .sub{
+    color: #E5E7Eb;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.hero{ 
+    display: flex;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 50%;
+}
+
+.hero .left .main{
+    margin:0;
+}
+
+.container.two .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.pictures-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20vh;
+}
